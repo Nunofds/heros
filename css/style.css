@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #124668; */
+    font-family: "Lato", sans-serif;
+}
+
+/****** HEADER ******/
+
+#header {
+    background: #ddd;
+}
+h1 {
+    font-size: 2em;
+}
+
+h1,
+h2 {
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #fff;
+    background: #124668;
+}
+
+header nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+header nav ul li {
+    padding: 30px;
+    list-style: none;
+}
+header nav ul li a {
+    color: #2779b1;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    transition: ease-in 500ms;
+    background-color: #2779b1;
+    color: #fff;
+}
+
+/****** INTRO ******/
+
+main .intro {
+    height: 500px;
+    background-image: url("../images/gotham.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+main .para-intro {
+    width: 70%;
+    height: 250px;
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+}
+.para-intro > p {
+    padding: 30px;
+}
+
+/****** Section Batman ******/
+.content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.paragraph-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background: #000;
+}
+.title > p {
+    font-family: "Potta One", cursive;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    color: #fff;
+    font-size: 2em;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+.paragraph > p {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin: 0 auto;
+}
+
+/****** Section Superman ******/
+.content_sMan {
+    display: flex;
+    justify-content: flex-start;
+}
+.paragraph-content_sMan {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/*  */
+.title_filles {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background: rgb(224, 103, 218);
+}
+.title_filles > p {
+    font-family: "Potta One", cursive;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    color: #fff;
+    font-size: 2em;
+}
+
+/****** footer ******/
+footer {
+    height: 120px;
+    background: rgb(18, 70, 104);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+footer div:nth-child(1) {
+    margin-left: 100px;
+}
+footer div:nth-child(3) {
+    margin-right: 100px;
+}
+
+footer > div > a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    padding: 5px;
+}
+footer > div > a:hover {
+    background: rgba(221, 221, 221, 0.2);
+}
+
+.go_home {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.go_home a {
+    background: #fff;
+}
+.go_home a:hover {
+    background: rgb(194, 197, 199);
+}
